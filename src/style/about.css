@@ -1,0 +1,18 @@
+.about-me {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-top:1px solid #dcdcdc;
+    box-shadow: 0 -8px 6px -6px #f6f6f6;
+    }
+
+.about-me h2{
+      margin-top:50px;
+    }
+
+.about-me p {
+  margin: 0 auto;
+  max-width: 1050px;
+}

@@ -1,0 +1,19 @@
+.App-footer {
+  background-color: #616161;
+  /* left: 0; */
+  /* bottom: 0; */
+  height: 51px;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #F5F5F5;
+
+  }
+
+ .footer-title {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #F5F5F5;
+
+}

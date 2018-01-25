@@ -1,0 +1,31 @@
+.my-projects{
+  /* display: block; */
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  text-align:center;
+  height: auto;
+  width: 80%;
+  border-top:1px solid #dcdcdc;
+  box-shadow: 0 -8px 6px -6px #f6f6f6;
+}
+.my-projects h2{
+  margin-top:50px;
+}
+.project-wrap{
+  /* max-height: 425px; */
+  min-height: 475px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1600px;
+}
+.screenshots{
+float: left;
+margin: 15px 25px 15px 25px;
+border: 5px solid #dcdcdc;
+}
+.screenshots img{
+  width: 450px;
+  height: 325px;
+}

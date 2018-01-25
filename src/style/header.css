@@ -1,0 +1,161 @@
+.App-header {
+  background-color: #616161;
+  height: 150px;
+  padding: 0px;
+  color: #F5F5F5;
+  vertical-align: middle !important;
+  display:block;
+  border-bottom: 2px solid #616161;
+  box-shadow: 0 10px 3px 6px #B0B0B0;
+
+}
+
+ .App-title {
+   margin: 0 auto;
+  font-size: 100px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #F5F5F5;
+  width: 50%;
+  float:left;
+}
+
+.color2{
+  color: #F5F5F5;
+}
+
+.header-left{
+  width: 25%;
+  float:left;
+  height: 100%;
+}
+
+.header-right{
+float: left;
+width: 25%;
+height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+a:hover{
+  color: tomato;
+}
+
+.menu{
+  display: block;
+  position:relative;
+  right: 50px;
+}
+
+
+.menu input{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  right: -8px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+}
+
+/* hamburger */
+
+.menu span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  top: 50px;
+  margin-bottom: 5px;
+  position: relative;
+  margin-left: 500px;
+  background: #cdcdcd;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background-color 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.menu span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.menu span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+.menu input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+.menu input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+.menu input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+
+.menu-select {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width:300px;
+  margin: -50px -50px 0 0; /*menu off screen*/
+  margin-top: 151px;
+  padding-bottom: 50px;
+  z-index: 0;
+  padding-left: 0;
+
+  background: #dedede;
+  list-style-type: none;
+  visibility: hidden;
+  }
+
+  .menu input:checked ~ * .menu-select
+  {
+    visibility: visible;
+    }
+
+  .menu-link{
+    padding: 10px 0;
+    font-size: 22px;
+  }

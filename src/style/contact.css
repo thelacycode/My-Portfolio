@@ -1,0 +1,51 @@
+.contact-info{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  padding-bottom: 75px;
+  /* min-height: 400px; */
+  margin-bottom: 0px;
+  border-top:1px solid #dcdcdc;
+  box-shadow: 0 -8px 6px -6px #f6f6f6;
+  text-align: center;
+}
+
+.my-contacts{
+  margin: 0 auto;
+  width: 50%;
+  height: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-info h2{
+  margin-top:50px;
+}
+
+.social {
+  width: auto;
+  height: 50px;
+  /* margin-top: 50px; */
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5%;
+}
+.social:hover{
+  cursor: pointer;
+  }
+
+
+.twitter{
+  background: #00aced;
+}
+
+.github{
+  background: #6cc644;
+}
+
+.youtube{
+  background: #ea4335;
+}

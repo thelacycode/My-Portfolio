@@ -1,0 +1,95 @@
+.myIntro{
+  background-color: black;
+  background-image: -webkit-linear-gradient(70deg, #BDBDBD 50%, #03A9F4 50%);
+  min-height: 850px;
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
+  color: #111111;
+  }
+
+.tag-line {
+  max-height: 100px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+  p {
+  line-height: 50px;
+    margin: 0 0 10px 0;
+}
+
+.intro-header{
+  margin: 0 auto;
+  margin-bottom: 25px;
+  vertical-align: middle;
+  height: auto;
+  min-width: 600px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #F5F5F5;
+  }
+
+  span.highlight {
+    display: inline-block;
+    padding: 1px 1px;
+    width: 185px;
+    text-align:center;
+    position: relative;
+
+  }
+
+  span.highlight span {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: top .5s;
+    transform: translateZ(0);
+    line-height: 50px;
+      background: #616161;
+      color: #F5F5F5;
+  }
+
+  .designer {
+    animation: flash 3s infinite ease;
+    }
+  .developer {
+    animation: flash1 3s infinite ease;
+    }
+  .entrepreneur {
+    animation: flash2 3s infinite ease;
+    }
+
+  .headShot{
+    position: relative;
+    margin: 30px auto 0;
+    border: 5px solid #dedede;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  img{
+    width: 300px;
+    height: 375px;
+  }
+  .intro-info{
+    margin-top: 25px;
+  }
+  @keyframes flash {
+        0% {z-index: 0}
+        33.3% {z-index: 5}
+        66.6% {z-index: 0}
+        100% {z-index: 0}
+          }
+  @keyframes flash1 {
+        0% {z-index: 5}
+        33.3% {z-index: 0}
+        66.6% {z-index: 0}
+        100% {z-index: 5}
+          }
+  @keyframes flash2 {
+        0% {z-index: 0}
+        33.3% {z-index: 0}
+        66.6% {z-index: 5}
+        100% {z-index: 0}
+          }
